@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # 1. Load your best trained weights
-weights_path = r"D:\RSS Grader\Panisthalam\runs\classify\rubber_run\rss4_vs_rss5-2\weights\best.pt"
+weights_path = r"<best.pt path>"
 model = YOLO(weights_path)
 
 # 2. Run validation specifically on the 'test' split
