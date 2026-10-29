@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 def main():
     # Direct path to your dataset folder
-    dataset_path = r"D:\RSS Grader\Dataset"
+    dataset_path = r"<Dataset folder Path>"
 
     # Load pretrained YOLO classification model
     model = YOLO("yolo11n-cls.pt")
