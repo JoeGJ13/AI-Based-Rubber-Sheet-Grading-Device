@@ -3,7 +3,7 @@ import time
 from ultralytics import YOLO
 
 # 1. Path to your best trained model weights
-weights_path = r"D:\RSS Grader\Panisthalam\runs\classify\rubber_run\rss4_vs_rss5-2\weights\best.pt"
+weights_path = r"<best.pt path>"
 model = YOLO(weights_path)
 
 # 2. Phone IP camera URL (verify this matches your phone app's address)
